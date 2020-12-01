@@ -1,0 +1,10 @@
+# Demone che configura in
+# quagga quali demoni avviare
+# <nome-demone>={yes|no|priority}
+# daemons list=bgpd zebra ospfd ospf6d ripd ripngd
+zebra=yes
+bgpd=no
+ospfd=yes
+ospf6d=no
+ripd=no
+ripngd=no

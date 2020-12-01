@@ -1,0 +1,5 @@
+ifconfig eth0 192.168.2.1 netmask 255.255.255.0 up
+ifconfig eth1 192.168.100.13 netmask 255.255.255.252 up
+ifconfig eth2 192.168.100.10 netmask 255.255.255.252 up
+
+/etc/init.d/quagga start
